@@ -1,0 +1,37 @@
+
+.bg-body{
+    background: #1978a2;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #219fd5;
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+
+  height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    transition: width 2s, height 2s;
+
+}
+.hidden{
+    display: none;
+}
+#hidden{
+font-size: xx-small;
+align-items: flex-end;
+}
+.hidden button{
+    background: #00152a;
+    height: 80px;
+    width: 80px;
+    color: #219fd5;
+  margin-left: 70%;
+  margin-right: 30%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 40px;
+}
