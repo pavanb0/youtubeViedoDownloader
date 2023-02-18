@@ -1,0 +1,117 @@
+
+.bg-body{
+    background: #1978a2;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #219fd5;
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+
+  height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    transition: width 2s, height 2s;
+
+}
+.hidden{
+    display: none;
+}
+#hidden{
+font-size: xx-small;
+align-items: flex-end;
+}
+.hidden button{
+    background: #00152a;
+    height: 80px;
+    width: 80px;
+    color: #219fd5;
+  margin-left: 70%;
+  margin-right: 30%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+.middel section{
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #00152a;
+}
+.middle:first-child{
+    margin-top: 100%;
+
+}
+
+
+#myProgress {
+  width: 100%;
+  background-color: grey;
+}
+
+#myBar {
+  width: 0%;
+  height: 30px;
+  background-color: #5ce1e6;
+}
+
+.custom-shape-divider-top-1676288437 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+h1 strong{
+  padding: 10px;
+margin-left: 29%;
+margin-right: auto;
+}
+input[type="text"]{
+background-color: aliceblue;
+
+}
+.custom-shape-divider-top-1676288437 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 91px;
+}
+
+.custom-shape-divider-top-1676288437 .shape-fill {
+  fill: #63AAC9;
+}
+
+.last{
+  background-color: #41444a;
+  padding: 20px;
+  border: solid 2px #219fd5;
+border-radius: 20px;
+  margin-top: 20%;
+  margin-bottom: 20%;
+  display: table;
+  justify-content: center;
+  width: 100%;
+  height:auto;
+}
+.col-lg-4 img{
+  border-radius: 20px;
+}
+/* .bottom{
+    margin-top: 0%;
+    background: #00152a;
+    color: #219fd5;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+} */
+
+
+

@@ -32,25 +32,58 @@
 			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
 			crossorigin="anonymous"
 		></script>
+		<link rel="stylesheet" href="./style.css">
 	</head>
-	<body>
-		<div class="container">
-			<iframe class="d-flex" width="640" height="480" src="<%= url %>">
+	<body class="bg-body">
+		<div class="navigator">
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+				<a class="navbar-brand" href="#">
+					<div class="logo"><img src="./public/Download payload.png" alt="Youtube Downloader">&nbsp; &nbsp; Youtube
+					Downloader
+				</a>
+			</div>
+			
+			<div class="hidden">
+			  <button id="hidden_button"> X </button>
+			  <img src="./public/Download payload.png" alt="Youtube Downloader">
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+			  aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			  <div class="navbar-nav">
+				<a class="nav-link active" href="./portfolio_website_fcc/index.html">About me <span
+					class="sr-only">(current)</span></a>
+			  </div>
+			</div>
+			</nav>
+			</div>
+			 
+				  
+				  
+				
+		<!-- <div class="container" style="padding:10px; margin: 10px; "> -->
+		<center style="margin-top: 50px
+		;">
+			<iframe style="margin: auto;" width="640" height="480" src="<%= url %>">
 			</iframe>
-		</div>
+		</center>
+		<!-- </div> -->
 		<div class="container">
 			<div class="btn-group">
 				<button
-					type="button"
-					class="btn btn-success dropdown-toggle"
-					data-toggle="dropdown"
-					aria-haspopup="true"
-					aria-expanded="false"
+				style="align-self: center;"
+				type="button"
+				class="btn btn-success dropdown-toggle"
+				data-toggle="dropdown"
+				aria-haspopup="true"
+				aria-expanded="false"
 				>
-					Download
-				</button>
-				<div class="dropdown-menu">
-					<% info.forEach((format) => { %>
+				Download
+			</button>
+			<div class="dropdown-menu">
+				<% info.forEach((format) => { %>
 					<a class="dropdown-item" href="<%= format.url %>">
 						<%= format.mimeType.split(";")[0] %> <%= format.hasVideo
 						? format.height + "p" : "" %> <% if(!format.hasAudio) {
@@ -62,5 +95,19 @@
 				</div>
 			</div>
 		</div>
+
+
+		</div>
+		<footer class="bg-dark"
+		  style="height: 75px; display: inline-flex; width: 100%; margin-top: 20%; margin-bottom: 0%;">
+		
+		  <img src="./portfolio_website_fcc/images/heromaincrop.jpeg" alt="Satyam"
+			style="display: flex; height: 60px; width: 60px; border-radius: 40px; margin-top: auto; margin-bottom: auto; margin-left: 1%;">
+		  <p style="display:inline-flexbox;margin-left: 38%;margin-top: 24px;margin-bottom: auto; overflow: hidden;"> Design
+			by <a href="./portfolio_website_fcc/index.html" target="_blank">Satyam Bagwe</a></p>
+		
+		
+		</footer>
+		<script src="./main.js"></script>
 	</body>
 </html>
